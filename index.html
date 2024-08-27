@@ -1,40 +1,75 @@
 <!DOCTYPE html>
-<!-- * Defines the document type and version of HTML -->
-
 <html lang="en">
-  <!-- * The root element of the HTML document. The 'lang' attribute sets the language of the content -->
-
-  <head>
-    <!-- * Contains metadata and links to resources like stylesheets or scripts -->
-
-    <meta charset="UTF-8" />
-    <!-- * Sets the character encoding for the document, ensuring it displays correctly -->
-
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <!-- * Ensures the page is responsive by controlling its width and scaling on different devices -->
-
-    <!-- * Links stylesheets to the document  -->
-    <link
-      rel="stylesheet"
-      href="./styles.css" />
-
-    <title>Hello There</title>
-    <!-- * Sets the title of the webpage, which appears in the browser tab -->
-  </head>
-
-  <body>
-    <!-- * Contains the main content of the HTML document that users will see in the browser -->
-
-    <h1>Hello There</h1>
-    <!-- * A top-level heading element, typically used for the main title or header -->
-
-    <p>This is a simple HTML file. It doesn't do much, but it's a start.</p>
-    <!-- * Defines a paragraph of text -->
-
-    <script src="./script.js"></script>
-    <!-- * Links to an external JavaScript file for adding interactivity to the page -->
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma Sigma on the Wall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <h1>Welcome to my Website</h1>
+      <p>Your go to resource for web development tutorials</p>
+      <nav>
+        <a href="#section1">About</a>
+        <a href="#section2">Services</a>
+        <a href="#section3">Gallery</a>
+        <a href="#section4">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="section1">
+        <h2>About Us</h2>
+        <p>We are a team of oassionate developers dedicated to providing the best tutorials and resources for learning web development.</p>
+      </section>
+      <section id="section2">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>Design and UX</li>
+          <li>SEO Optimization</li>
+          <li>Content Creation</li>
+        </ul>
+        <p>We also offer the following packages</p>
+        <table>
+          <tr>
+            <td><b>Package</b></td>
+            <td><b>Features</b></td>
+            <td><b>Price</b></td>
+          </tr>
+          <tr>
+            <td>Basic</td>
+            <td>Basic Website Design</td>
+            <td>$299</td>
+          </tr>
+          <tr>
+            <td>Standard</td>
+            <td>Website Design+ SEO</td>
+            <td>$499</td>
+          </tr>
+          <tr>
+            <td>Premium</td>
+            <td>All-Inclusive Package</td>
+            <td>$799</td>
+          </tr>
+        </table>
+      </section>
+      <section id="section3">
+        <h2>Gallery</h2>
+        <p>We are a team of passionate developers dedicated to providing the best tutorials and resources for learning web development.</p>
+        <img src="IMG_5013.jpg" alt="anime girl saying shes here to kill you" width="800" height="400">
+        <p><i>Our latest web design project</i></p>
+        <img src="IMG_4750.jpg" alt="realisitc angry birds tchuck saying hes gonna explode from edging too hard" width="800" height="400">
+      </section>
+      <section id="section4">
+        <h2>Contact us</h2>
+        <p>If you have any questions or would like to work with us, feel free to reach out via email or social media</p>
+        <p>Email: <a href="/"></a>Melker@Melkerson.com</p>
+        <p>Follow us on: <a href="/">Twitter,</a><a href="/">Facebook,</a><a href="/">Instagram</a></p>
+        <footer>
+          @ 2024 My website. All right reserved.
+        </footer>
+      </section>
+    </main>
+</body>
 </html>
-<!-- * The closing tag for the root element of the HTML document -->
